@@ -1,0 +1,206 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000101 /* TennisScoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000001; };
+		A00000000000000000000102 /* MatchStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000002; };
+		A00000000000000000000103 /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000003; };
+		A00000000000000000000104 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000004; };
+		A00000000000000000000105 /* MatchSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000005; };
+		A00000000000000000000106 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000006; };
+		A00000000000000000000107 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000007; };
+		A00000000000000000000108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008; };
+		A00000000000000000000109 /* TennisCore in Frameworks */ = {isa = PBXBuildFile; productRef = D00000000000000000000002; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisScoreApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchStore.swift; sourceTree = "<group>"; };
+		A00000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
+		A00000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A00000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchSetupView.swift; sourceTree = "<group>"; };
+		A00000000000000000000006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		A00000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A00000000000000000000008 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00000000000000000000006 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B00000000000000000000004 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000109,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (C00000000000000000000006, C00000000000000000000004,);
+			sourceTree = "<group>";
+		};
+		C00000000000000000000004 = {isa = PBXGroup; children = (B00000000000000000000006,); name = Products; sourceTree = "<group>"; };
+		C00000000000000000000006 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000001, A00000000000000000000002,
+				A00000000000000000000003, A00000000000000000000004,
+				A00000000000000000000005, A00000000000000000000006,
+				A00000000000000000000007, A00000000000000000000008,
+			);
+			path = WatchApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00000000000000000000001 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00000000000000000000002;
+			buildPhases = (B00000000000000000000003, B00000000000000000000004, B00000000000000000000005,);
+			buildRules = ();
+			dependencies = ();
+			name = TennisScore;
+			packageProductDependencies = (D00000000000000000000002,);
+			productName = TennisScore;
+			productReference = B00000000000000000000006;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00000000000000000000001 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {B00000000000000000000001 = {CreatedOnToolsVersion = 16.0; }; };
+			};
+			buildConfigurationList = C00000000000000000000002;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = fr;
+			hasScannedForEncodings = 0;
+			knownRegions = (fr, Base,);
+			mainGroup = C00000000000000000000003;
+			packageReferences = (D00000000000000000000001,);
+			productRefGroup = C00000000000000000000004;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (B00000000000000000000001,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00000000000000000000005 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000108,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00000000000000000000003 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000101, A00000000000000000000102,
+				A00000000000000000000103, A00000000000000000000104,
+				A00000000000000000000105, A00000000000000000000106,
+				A00000000000000000000107,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C00000000000000000000101 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		C00000000000000000000102 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		B00000000000000000000101 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tennis Score";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				INFOPLIST_KEY_WKSupportsAlwaysOnDisplay = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks",);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolascompere.TennisScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		B00000000000000000000102 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tennis Score";
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				INFOPLIST_KEY_WKSupportsAlwaysOnDisplay = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks",);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicolascompere.TennisScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (C00000000000000000000101, C00000000000000000000102,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		B00000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (B00000000000000000000101, B00000000000000000000102,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D00000000000000000000001 = {isa = XCLocalSwiftPackageReference; relativePath = .; };
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D00000000000000000000002 = {isa = XCSwiftPackageProductDependency; productName = TennisCore; };
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C00000000000000000000001;
+}

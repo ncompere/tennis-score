@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Balle avec couture en S</title>
+  <g fill="none" stroke="#C4EE56" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" transform="rotate(-25 256 256)">
+    <circle cx="256" cy="256" r="180"/>
+    <path d="M256 76 C118 143 118 218 256 256 C394 294 394 369 256 436"/>
+  </g>
+</svg>

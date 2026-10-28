@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Balle en contour</title>
+  <g fill="none" stroke="#C4EE56" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="256" cy="256" r="180"/>
+    <path d="M146 113.522 C244 181 244 331 146 398.478"/>
+    <path d="M366 113.522 C268 181 268 331 366 398.478"/>
+  </g>
+</svg>

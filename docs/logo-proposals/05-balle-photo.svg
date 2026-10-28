@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Balle minimaliste inspirée de la photographie du court</title>
+  <desc>Balle vert citron à couture olive en U, sur fond transparent.</desc>
+  <defs>
+    <clipPath id="ball-boundary">
+      <circle cx="256" cy="256" r="180"/>
+    </clipPath>
+  </defs>
+  <g id="balle">
+    <circle id="corps" cx="256" cy="256" r="180" fill="#CCE176"/>
+    <path id="couture" d="M153.14 108.38 C90.46 180.46 69.57 304.21 153.14 362.07 C236.71 432.79 336.36 350.82 429.57 208.33" fill="none" stroke="#627B40" stroke-width="12" stroke-linecap="round" clip-path="url(#ball-boundary)"/>
+  </g>
+</svg>
